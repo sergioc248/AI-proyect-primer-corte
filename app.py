@@ -132,6 +132,22 @@ st.markdown('<p class="big-font">Diagnóstico de PCOS</p>', unsafe_allow_html=Tr
 image_url = "https://ferticity.com/wp-content/uploads/2025/01/pcos_symtoms3-webp.webp"
 st.image(image_url, use_container_width=True)
 
+# Introducción
+st.markdown("""
+    <div style="text-align: justify; font-family: 'Montserrat', sans-serif; font-size: 17px; margin-bottom: 25px;">
+    El Síndrome de Ovarios Poliquísticos (PCOS) es una de las condiciones endocrinas más comunes en mujeres en edad reproductiva.
+    A menudo, su diagnóstico representa un desafío, y muchas mujeres pueden pasar años sin un diagnóstico correcto debido a que
+    sus síntomas se confunden con otras afecciones.
+    <br><br>
+    Esta herramienta utiliza un modelo de Inteligencia Artificial para estimar la posibilidad de PCOS basándose en datos clínicos básicos
+    como edad, índice de masa corporal (BMI), irregularidad menstrual, niveles de testosterona y el recuento de folículos antrales.
+    <br><br>
+    <b>Objetivo:</b> Ofrecer una alerta temprana que motive la búsqueda de estudios médicos más detallados.
+    No reemplaza la consulta médica profesional, pero puede ser una pista importante para que más mujeres encuentren respuestas
+    y accedan a un cuidado informado y oportuno.
+    </div>
+""", unsafe_allow_html=True)
+
 st.markdown('<p class="sub-font">Complete los siguientes campos para obtener el diagnóstico:</p>', unsafe_allow_html=True)
 
 # Distribuir los inputs en dos columnas
